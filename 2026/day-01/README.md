@@ -9,6 +9,6 @@ This day focuses on setting up my learning environment and defining my 90-day De
 - Created my learning plan
 
 ## Links
-- Learning Plan: learning-plan.md
-- Notes: notes.md
+- Learning Plan: [learning-plan.md]
+- Notes: [notes.m]d
 
