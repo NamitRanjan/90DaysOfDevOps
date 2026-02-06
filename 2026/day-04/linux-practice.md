@@ -1,5 +1,3 @@
-# linux-practice.md
-
 # Linux Practice – Processes and Services (Day 04)
 
 This note captures basic Linux troubleshooting commands executed on my system.
