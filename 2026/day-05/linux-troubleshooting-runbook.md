@@ -82,6 +82,9 @@ Command:
 
 curl -I http://localhost
 
+<img width="590" height="248" alt="image" src="https://github.com/user-attachments/assets/58d5901a-974a-4dc1-8810-b5f50c241715" />
+
+
 
 Observation:
 Connection check performed (may fail if no web server is running).
