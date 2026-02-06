@@ -130,15 +130,3 @@ System appears stable.
 3. Inspect process behavior
 
    ps aux | grep cron
-
----
-
-## Why this runbook is good
-It shows:
-- Evidence collection before action
-- Health snapshot workflow
-- Log-first troubleshooting mindset
-- Repeatable incident checklist
-
-
-
