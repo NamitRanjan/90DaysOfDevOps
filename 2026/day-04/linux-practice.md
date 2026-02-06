@@ -5,7 +5,7 @@
 
 This note captures basic Linux troubleshooting commands executed on my system.
 
-Service inspected: **cron**
+Service inspected: cron
 
 ---
 
@@ -13,9 +13,7 @@ Service inspected: **cron**
 
 ### 1. List running processes
 Command:
-```bash
 ps aux | head
-````
 
 Output:
 
@@ -130,7 +128,5 @@ Steps:
 
 Conclusion:
 The cron service is running correctly and logs show no errors.
-
-````
 
 
