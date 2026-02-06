@@ -1,4 +1,3 @@
-Nice — Day-05 is where you start thinking like an **on-call engineer**, not just a Linux learner.
 # Linux Troubleshooting Runbook (Day 05)
 
 ## Target Service / Process
