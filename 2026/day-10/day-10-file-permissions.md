@@ -10,45 +10,45 @@
 
 ## Permission Changes
 
-script.sh
+- script.sh
 Before: -rw-r--r--
 After:  -rwxr-xr-x
 
-devops.txt
+- devops.txt
 Before: -rw-r--r--
 After:  -r--r--r--
 
-notes.txt
+- notes.txt
 Set to: -rw-r-----
 
-project directory
+- project directory
 Permissions: drwxr-xr-x (755)
 
 ---
 
 ## Commands Used
 
-touch devops.txt
+- touch devops.txt
 
-echo "text" > notes.txt
+- echo "text" > notes.txt
 
-vim script.sh
+- vim script.sh
 
-cat notes.txt
+- cat notes.txt
 
-head -n 5 /etc/passwd
+- head -n 5 /etc/passwd
 
-tail -n 5 /etc/passwd
+- tail -n 5 /etc/passwd
 
-chmod +x script.sh
+- chmod +x script.sh
 
-chmod a-w devops.txt
+- chmod a-w devops.txt
 
-chmod 640 notes.txt
+- chmod 640 notes.txt
 
-mkdir project
+- mkdir project
 
-chmod 755 project
+- chmod 755 project
 
 
 ---
