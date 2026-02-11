@@ -16,16 +16,19 @@ Focus more on:
 
 Command:
 ps aux | head
+
 Observation:
 Confirmed running system processes.
 
 Command:
-systemctl status cron
+- systemctl status cron
+
 Observation:
 Service is active and running.
 
 Command:
-journalctl -u cron -n 5
+- journalctl -u cron -n 5
+
 Observation:
 Recent logs show normal activity.
 
@@ -37,10 +40,10 @@ Command:
 echo "Revision line" >> notes.txt
 
 Command:
-chmod 640 notes.txt
+- chmod 640 notes.txt
 
 Command:
-ls -l notes.txt
+- ls -l notes.txt
 
 Observation:
 File permissions updated successfully.
@@ -64,13 +67,13 @@ These help quickly identify system health issues.
 ## User / Group Sanity Practice
 
 Command:
-sudo useradd testuser
+- sudo useradd testuser
 
 Command:
-id testuser
+- id testuser
 
 Command:
-sudo chown tokyo notes.txt
+- sudo chown tokyo notes.txt
 
 Observation:
 Verified user creation and ownership change.
@@ -81,23 +84,28 @@ Verified user creation and ownership change.
 
 ### Which 3 commands save you the most time right now, and why?
 - ps aux → quickly inspect processes
+
 - systemctl status → check service health
+
 - journalctl → inspect logs immediately
 
 ---
 
 ### How do you check if a service is healthy?
 Commands:
-systemctl status <service>
-journalctl -u <service> -n 20
-ps aux | grep <service>
+- systemctl status <service>
+
+- journalctl -u <service> -n 20
+
+- ps aux | grep <service>
 
 ---
 
 ### How do you safely change ownership and permissions?
 Example:
-sudo chown tokyo:developers file.txt
-chmod 640 file.txt
+- sudo chown tokyo:developers file.txt
+
+- chmod 640 file.txt
 
 Always verify with:
 ls -l
