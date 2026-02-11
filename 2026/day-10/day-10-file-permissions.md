@@ -29,16 +29,27 @@ Permissions: drwxr-xr-x (755)
 ## Commands Used
 
 touch devops.txt
+
 echo "text" > notes.txt
+
 vim script.sh
+
 cat notes.txt
+
 head -n 5 /etc/passwd
+
 tail -n 5 /etc/passwd
+
 chmod +x script.sh
+
 chmod a-w devops.txt
+
 chmod 640 notes.txt
+
 mkdir project
+
 chmod 755 project
+
 
 ---
 
