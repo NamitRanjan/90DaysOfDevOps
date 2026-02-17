@@ -108,11 +108,15 @@ Assume Listening port identified: **22 (SSH)**
 Command:
 **nc -zv localhost 22**
 
+<img width="853" height="56" alt="image" src="https://github.com/user-attachments/assets/3a24b349-9d39-423e-8bdc-4197d8b995e3" />
+
 Observation:
 Port is reachable.
 
 Next check if not reachable:
 systemctl status ssh
+
+<img width="1130" height="388" alt="image" src="https://github.com/user-attachments/assets/81247e0f-d443-46b1-9e71-acbf093c2dac" />
 
 ---
 
