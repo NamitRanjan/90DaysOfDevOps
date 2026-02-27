@@ -42,3 +42,17 @@ Shows unstaged changes
 Shows commit history  
 
 - git log --oneline
+
+## Branching Commands
+
+- git switch -c <branch>
+Creates and switches branch
+
+- git merge <branch>
+Merges branch into current branch
+
+- git branch -d <branch>
+Deletes branch
+
+- git push -u origin <branch>
+Push new branch to remote
