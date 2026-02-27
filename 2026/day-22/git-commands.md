@@ -41,5 +41,4 @@ Shows unstaged changes
 - git log  
 Shows commit history  
 
-- git log --oneline  
-Compact commit view
+- git log --oneline
