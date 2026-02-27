@@ -1,0 +1,19 @@
+Package: nginx
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.18.0-6ubuntu14.8
+Depends: nginx-core (<< 1.18.0-6ubuntu14.8.1~) | nginx-full (<< 1.18.0-6ubuntu14.8.1~) | nginx-light (<< 1.18.0-6ubuntu14.8.1~) | nginx-extras (<< 1.18.0-6ubuntu14.8.1~), nginx-core (>= 1.18.0-6ubuntu14.8) | nginx-full (>= 1.18.0-6ubuntu14.8) | nginx-light (>= 1.18.0-6ubuntu14.8) | nginx-extras (>= 1.18.0-6ubuntu14.8)
+Breaks: libnginx-mod-http-lua (<< 1.18.0-6ubuntu5)
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-core (by default),
+ nginx-full, nginx-light or nginx-extras.
+Homepage: https://nginx.net
+Original-Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
