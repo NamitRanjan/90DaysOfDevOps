@@ -18,20 +18,20 @@ Git updates the working directory to reflect that branch’s state.
 
 ## origin vs upstream
 
-origin:
+- origin:
 Your forked repository on GitHub.
 
-upstream:
+- upstream:
 The original repository you forked from.
 
 ---
 
 ## git fetch vs git pull
 
-git fetch:
+- git fetch:
 Downloads changes without merging.
 
-git pull:
+- git pull:
 Fetch + merge (or rebase).
 
 ---
@@ -39,17 +39,17 @@ Fetch + merge (or rebase).
 ## Clone vs Fork
 
 Clone:
-Creates a local copy of a repository.
+- Creates a local copy of a repository.
 
 Fork:
-Creates your own copy of someone else's repository on GitHub.
+- Creates your own copy of someone else's repository on GitHub.
 
 When to fork:
-When contributing or modifying independently.
+- When contributing or modifying independently.
 
 Keeping fork updated:
-git remote add upstream <original-repo>
-git pull upstream master
+- git remote add upstream <original-repo>
+- git pull upstream master
 
 
 
