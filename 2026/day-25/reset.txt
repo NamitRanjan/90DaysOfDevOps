@@ -1,8 +1,1 @@
-Commit A
-Commit B
-Commit A
-<<<<<<< HEAD
-Commit B
-Commit C
-=======
->>>>>>> parent of 59c92f0 (Commit Y)
+:wq
